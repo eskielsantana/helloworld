@@ -7,7 +7,7 @@ class App extends Component {
 
   render() {
     return (
-      <div class="ui-g"> OLAR MUNDO </div>
+      <div className="ui-g"> OLAR MUNDO </div>
      ); 
   }
 } 
