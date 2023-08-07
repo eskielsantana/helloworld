@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // Pages
 import Home from './pages/Home.jsx';
 //import SearchPage from './pages/Search.jsx';
+import SidePage from './pages/SidePage.jsx';
 import NotFound from './pages/PageNotFound.jsx';
 
 // CSS
@@ -20,7 +21,8 @@ const App = () => (
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/results/:searchString" component={Home} />
+            <Route exact path="/side" component={SidePage} />     
+            {/* <Route path="/results/:searchString" component={SearchPage} /> */}
             <Route component={NotFound} />
           </Switch>
         </BrowserRouter>

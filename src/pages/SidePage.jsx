@@ -7,7 +7,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui-g"> Hello World </div>
+      <div className="ui-g"> Side Page </div>
      ); 
   }
 } 
